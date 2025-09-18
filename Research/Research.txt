@@ -14,6 +14,9 @@ The module is designed for low power consumption, with an idle current of less t
  It is compatible with various microcontrollers like Arduino and Raspberry Pi, often used in applications such as security systems, home automation (e.g., automatic lighting), robotics, and energy-saving systems.
  The sensor is typically housed in a compact 32 x 24 mm module with mounting holes for easy installation. 
 
+https://components101.com/sensors/hc-sr501-pir-sensor 
+
+
 
  An IR sensor module is an electronic device designed to detect infrared (IR) radiation, commonly used for applications like obstacle detection, remote control signal reception, and motion sensing. These modules typically consist of an IR transmitter (an IR LED) and an IR receiver (a photodiode or phototransistor), which work together to detect the presence of objects or signals.
  The IR LED emits infrared light, which is invisible to the human eye, with wavelengths typically ranging from 700 nm to 1 mm.
@@ -34,6 +37,7 @@ The modules are generally easy to interface with microcontrollers like Arduino o
  While effective, these sensors are generally suitable for indoor use and can be affected by ambient light. 
 
 
+
  The STM32F407VG Discovery Kit from STMicroelectronics includes various sensors and peripherals suitable for development, but it does not come with an integrated ultrasonic sensor module like the HC-SR04.
  However, the kit can be used to interface with an external ultrasonic sensor module, such as the HC-SR04, for distance measurement applications.
 
@@ -47,9 +51,14 @@ To use the HC-SR04 with the STM32F407VG Discovery Kit, you can implement a drive
 
 For development, the kit's onboard components, including various sensors and indicator LEDs, provide a comprehensive platform for integrating and testing the ultrasonic sensor. 
 
+https://www.tdk-electronics.tdk.com/en/ultrasonic_sensor_module
+https://www.sparkfun.com/ultrasonic-distance-sensor-hc-sr04.html
+
+
 
 The STM32F407G-DISC1 Discovery kit includes a built-in digital microphone, specifically the MP45DT02, located on the board (U9) and not within the STM32F407VG microcontroller itself.
  This microphone is an omni-directional digital microphone, designed for audio input applications.
  The kit's features also include an audio DAC with an integrated class D speaker driver, which can be used for audio output, and the on-board ST-LINK/V2-A debugger/programmer facilitates development and debugging.
  The microphone is part of the kit's comprehensive set of sensors and peripherals, which also includes a MEMS 3-axis accelerometer. 
+
 
